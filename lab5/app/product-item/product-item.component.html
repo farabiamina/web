@@ -1,0 +1,9 @@
+<p><a id="name" target="_blank" href="{{myProduct.link}}">{{myProduct.name}}</a></p><br>
+<p id="rating">Rating {{myProduct.rating}} of 5</p><br><br>
+<img src="{{myProduct.image}}"><br>
+<pre id="description">{{myProduct.description}}</pre>
+<button (click)="share(myProduct)">Share</button>
+<button (click)="removeProduct(myProduct.id)">Remove</button>
+<button id="like-button" (click)="like(myProduct)">Like</button>
+<p id="likes">{{myProduct.likes}} like(s)!</p>
+

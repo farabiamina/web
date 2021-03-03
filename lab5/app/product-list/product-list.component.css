@@ -1,0 +1,9 @@
+#item {
+  width: 98%;
+  height: 370px;
+  border: 2px solid #1E691F;
+  border-radius: 6px;
+  background-color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+}

@@ -1,0 +1,22 @@
+<div *ngIf="currentList === 1" >
+  <div id="item" *ngFor="let product of candles">
+    <app-product-item [myProduct]="product" (remove)="onProductRemove($event)"></app-product-item>
+  </div>
+</div>
+<div *ngIf="currentList === 2">
+  <div id="item" *ngFor="let product of notebooks">
+    <app-product-item [myProduct]="product" (remove)="onProductRemove($event)"></app-product-item>
+  </div>
+</div>
+<div *ngIf="currentList === 3">
+  <div id="item" *ngFor="let product of pencils">
+    <app-product-item [myProduct]="product" (remove)="onProductRemove($event)"></app-product-item>
+  </div>
+</div>
+<div *ngIf="currentList === 4">
+  <div id="item" *ngFor="let product of stickers">
+    <app-product-item [myProduct]="product" (remove)="onProductRemove($event)"></app-product-item>
+  </div>
+</div>
+
+
